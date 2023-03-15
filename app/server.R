@@ -1,5 +1,5 @@
 # Control Sys.sleep times
-times <- c(1, 0.5, 0.25)
+times <- c(4, 2, 1)
 
 function(input, output, session) {
   # Sys.sleep
