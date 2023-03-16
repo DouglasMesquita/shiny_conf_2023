@@ -13,5 +13,5 @@ test_that("Out2 time elapsed - set2", {
 test_that("Out3 time elapsed - set2", {
   app$click("run3")
   app$expect_values(output = "out3")
-  app$close()
+  app$stop()
 })
