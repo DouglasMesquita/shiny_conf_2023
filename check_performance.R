@@ -38,7 +38,7 @@ shinytest2_out <- benchmark(
   commit_list = commits,
   shinytest2_dir = testthat_dir,
   use_renv = FALSE,
-  tests_pattern = c("set[0-9]", "set1", "set2")
+  tests_pattern = c("set1", "set2", "set[0-9]")
 )
 
 # repetitions
